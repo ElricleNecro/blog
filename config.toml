@@ -1,0 +1,38 @@
+baseURL = "https://elriclenecro.github.io/"
+title = "Hacking blog"
+languageCode = "fr-FR"
+
+disablePathToLower = true
+
+paginate = 10
+
+googleAnalytics = ""
+disqusShortname = ""
+
+theme = "after-dark"
+
+pygmentsStyle = "native"
+pygmentsCodeFences = true
+
+[params]
+  author = "ElricleNecro"
+
+  github = "ElricleNecro"
+  gitlab = "ElricleNecro"
+  linkedin = "toto"
+
+  AuthorName = "Guillaume Plum"
+  bio = "Research Enginneer"
+  description = "This is my blog/documentation center!"
+
+  hide_author = false
+  show_menu = true
+  powered_by = true
+  enableRSS = true
+  enableLandingPage = true
+  landingPageRedirectUrl = "/about/"
+
+  [links]
+    Home  = "/"
+    Blog = "/blog/"
+    About = "/about/"
